@@ -8,7 +8,7 @@
 using namespace std;
 namespace fs = std::filesystem;
 
-// Node structure for Huffman tree
+
 class Node {
 public:
     char data;
@@ -16,7 +16,7 @@ public:
     Node* left;
     Node* right;
 
-    Node(char data, unsigned freq) : data(data), freq(freq), left(nullptr), right(nullptr) {}
+    Node(char data, unsigned freq) : data(data), freq(freq), left(NULL), right(NULL) {}
 };
 
 // Comparison function for priority queue
@@ -73,7 +73,7 @@ private:
     }
 
 public:
-    HuffmanCoding() : root(nullptr), bitCount(0), byte(0) {}
+    HuffmanCoding() : root(NULL), bitCount(0), byte(0) {}
 
     // Build Huffman tree from character frequencies
     void buildTree(const unordered_map<char, int>& frequency) {
@@ -96,7 +96,7 @@ public:
         if (!pq.empty()) {
             root = pq.top();
         } else {
-            root = nullptr;
+            root = NULL;
         }
     }
 
