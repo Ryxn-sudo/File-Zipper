@@ -1,0 +1,24 @@
+Original: C:\Users\Rayan\Documents\G Pass.txt
+Compressed: G Pass_compressed.bin
+Decompress: 
+Type: .txt
+Time: Tue Jan  7 17:12:37 2025
+
+Original: 
+Compressed: C:\Users\Rayan\Documents\compressed.bin
+Decompress: compressed_decompressed.txt
+Type: 
+Time: Tue Jan  7 17:13:24 2025
+
+Original: 
+Compressed: C:\Users\Rayan\Documents\compressed.bin
+Decompress: compressed_decompressed.txt
+Type: 
+Time: Tue Jan  7 17:14:27 2025
+
+Original: 
+Compressed: C:\Users\Rayan\Documents\compressed.bin
+Decompress: compressed_decompressed.txt
+Type: 
+Time: Tue Jan  7 17:14:29 2025
+

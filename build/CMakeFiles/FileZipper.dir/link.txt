@@ -1,0 +1,3 @@
+C:\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\FileZipper.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\FileZipper.dir/objects.a @CMakeFiles\FileZipper.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe  -D_WIN32_WINNT=0x0601 -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\FileZipper.dir/objects.a -Wl,--no-whole-archive -o FileZipper.exe -Wl,--out-implib,libFileZipper.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FileZipper.dir\linkLibs.rsp
